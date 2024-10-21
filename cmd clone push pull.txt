@@ -1,0 +1,128 @@
+Microsoft Windows [version 10.0.19045.4894]
+(c) Microsoft Corporation. Tous droits réservés.
+
+C:\Users\HP\Desktop\Aproche agile\204\depotdistantclone\204>git log
+commit 8e5bfd2c4395eaf16f91609f70443d219cab1672 (HEAD -> main)
+Author: unknown <ghennoum@gmail.com>
+Date:   Sat Sep 28 11:53:28 2024 +0100
+
+    Create f2.txt
+
+commit dd7d7bdeedc6bcf6690a31f0e449ee543f1c203f (origin/main, origin/HEAD)
+Author: nticrabat <ghennoum@yahoo.fr>
+Date:   Thu Sep 26 17:34:43 2024 +0100
+
+    Create file.html
+
+C:\Users\HP\Desktop\Aproche agile\204\depotdistantclone\204>git pull
+Already up to date.
+
+C:\Users\HP\Desktop\Aproche agile\204\depotdistantclone\204>git push
+info: please complete authentication in your browser...
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 275 bytes | 137.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/nticrabat/204
+   dd7d7bd..8e5bfd2  main -> main
+
+C:\Users\HP\Desktop\Aproche agile\204\depotdistantclone\204>git log
+commit 8e5bfd2c4395eaf16f91609f70443d219cab1672 (HEAD -> main, origin/main, origin/HEAD)
+Author: unknown <ghennoum@gmail.com>
+Date:   Sat Sep 28 11:53:28 2024 +0100
+
+    Create f2.txt
+
+commit dd7d7bdeedc6bcf6690a31f0e449ee543f1c203f
+Author: nticrabat <ghennoum@yahoo.fr>
+Date:   Thu Sep 26 17:34:43 2024 +0100
+
+    Create file.html
+
+C:\Users\HP\Desktop\Aproche agile\204\depotdistantclone\204>git pull
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (3/3), 923 bytes | 61.00 KiB/s, done.
+From https://github.com/nticrabat/204
+   8e5bfd2..da598ac  main       -> origin/main
+Updating 8e5bfd2..da598ac
+Fast-forward
+ file2.txt | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+C:\Users\HP\Desktop\Aproche agile\204\depotdistantclone\204>git log
+commit da598ace2a10955c55b45bc726d7a9251903063e (HEAD -> main, origin/main, origin/HEAD)
+Author: nticrabat <ghennoum@yahoo.fr>
+Date:   Sat Sep 28 12:20:55 2024 +0100
+
+    Update file2.txt
+
+commit 8e5bfd2c4395eaf16f91609f70443d219cab1672
+Author: unknown <ghennoum@gmail.com>
+Date:   Sat Sep 28 11:53:28 2024 +0100
+
+    Create f2.txt
+
+commit dd7d7bdeedc6bcf6690a31f0e449ee543f1c203f
+Author: nticrabat <ghennoum@yahoo.fr>
+Date:   Thu Sep 26 17:34:43 2024 +0100
+
+    Create file.html
+
+C:\Users\HP\Desktop\Aproche agile\204\depotdistantclone\204>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   file.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\HP\Desktop\Aproche agile\204\depotdistantclone\204>git add *
+
+C:\Users\HP\Desktop\Aproche agile\204\depotdistantclone\204>git commit -m "h1in f1"
+[main 15db9db] h1in f1
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+C:\Users\HP\Desktop\Aproche agile\204\depotdistantclone\204>git log
+commit 15db9dbaefa53fa57ae906621164645f24f80eb8 (HEAD -> main)
+Author: unknown <ghennoum@gmail.com>
+Date:   Sat Sep 28 12:26:46 2024 +0100
+
+    h1in f1
+
+commit da598ace2a10955c55b45bc726d7a9251903063e (origin/main, origin/HEAD)
+Author: nticrabat <ghennoum@yahoo.fr>
+Date:   Sat Sep 28 12:20:55 2024 +0100
+
+    Update file2.txt
+
+commit 8e5bfd2c4395eaf16f91609f70443d219cab1672
+Author: unknown <ghennoum@gmail.com>
+Date:   Sat Sep 28 11:53:28 2024 +0100
+
+    Create f2.txt
+
+commit dd7d7bdeedc6bcf6690a31f0e449ee543f1c203f
+Author: nticrabat <ghennoum@yahoo.fr>
+Date:   Thu Sep 26 17:34:43 2024 +0100
+
+    Create file.html
+
+C:\Users\HP\Desktop\Aproche agile\204\depotdistantclone\204>git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 275 bytes | 275.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/nticrabat/204
+   da598ac..15db9db  main -> main
+
+C:\Users\HP\Desktop\Aproche agile\204\depotdistantclone\204>
